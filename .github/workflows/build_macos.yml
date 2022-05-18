@@ -1,0 +1,15 @@
+name: MacOs Build
+
+on:
+  push: [master]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Make MacOs
+      run: |
+        blackhosts --help
+        blackhosts -y
+        sudo blackhosts -y
