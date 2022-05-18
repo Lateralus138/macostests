@@ -10,5 +10,4 @@ jobs:
     - name: Make MacOs
       run: |
         ./blackhosts --help
-        ./blackhosts -y
         sudo ./blackhosts -y
