@@ -13,7 +13,7 @@ jobs:
         ./blackhosts --help
 
         echo "Running sudo ./blackhosts -y"
-        sudo ./blackhosts -y
+        sudo ./blackhosts fakenews-gambling -y
 
         echo "Checking contents of /private/etc/hosts"
         cat /private/etc/hosts
