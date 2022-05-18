@@ -9,6 +9,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Make MacOs
       run: |
-        blackhosts --help
-        blackhosts -y
-        sudo blackhosts -y
+        ./blackhosts --help
+        ./blackhosts -y
+        sudo ./blackhosts -y
