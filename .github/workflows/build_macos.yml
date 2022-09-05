@@ -10,15 +10,6 @@ jobs:
     - name: Make MacOs
       run: |
         ./bin/unishellect.macos --help
-#./bin/unishellect.macos
         ./bin/unishellect.macos -c
         ./bin/unishellect.macos -c 'FAKEFILE'
         ./bin/unishellect.macos -m
-#echo "Running ./blackhosts --help"
-#./bin/blackhosts --help
-
-# echo "Running sudo ./blackhosts fakenews-gambling -y"
-# sudo ./blackhosts fakenews-gambling -y
-
-# echo "Checking contents of /private/etc/hosts"
-# cat /private/etc/hosts
