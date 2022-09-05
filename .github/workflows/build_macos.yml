@@ -9,8 +9,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: Make MacOs
       run: |
-        echo 'printf %b\n "\x1B]0;TEST\007"'
-        printf '%b\n' "\x1B]0;TEST\007"
+        ./bin/unishellect.macos --help
+        ./bin/unishellect.macos
+        ./bin/unishellect.macos -c
+        ./bin/unishellect.macos -c 'FAKEFILE'
+        ./bin/unishellect.macos -m
 #echo "Running ./blackhosts --help"
 #./bin/blackhosts --help
 
