@@ -10,7 +10,7 @@ jobs:
     - name: Make MacOs
       run: |
         echo 'echo -e "\x1b]0;TEST\007"'
-        echo -e "\x1b]0;TEST\007"
+        echo -e "\x1B]0;TEST\007"
 #echo "Running ./blackhosts --help"
 #./bin/blackhosts --help
 
