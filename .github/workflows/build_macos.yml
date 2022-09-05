@@ -9,8 +9,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Make MacOs
       run: |
-        echo 'echo -e "\x1b]0;TEST\007"'
-        echo -e "\x1B]0;TEST\007"
+        echo 'printf %b\n "\x1B]0;TEST\007"'
+        printf '%b\n' "\x1B]0;TEST\007"
 #echo "Running ./blackhosts --help"
 #./bin/blackhosts --help
 
