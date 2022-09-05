@@ -9,11 +9,13 @@ jobs:
     - uses: actions/checkout@v2
     - name: Make MacOs
       run: |
-        echo "Running ./blackhosts --help"
-        ./blackhosts --help
+        echo 'echo -e "\033]0;TEST\007"'
+        echo -e "\033]0;TEST\007"
+#echo "Running ./blackhosts --help"
+#./bin/blackhosts --help
 
-        echo "Running sudo ./blackhosts fakenews-gambling -y"
-        sudo ./blackhosts fakenews-gambling -y
+# echo "Running sudo ./blackhosts fakenews-gambling -y"
+# sudo ./blackhosts fakenews-gambling -y
 
-        echo "Checking contents of /private/etc/hosts"
-        cat /private/etc/hosts
+# echo "Checking contents of /private/etc/hosts"
+# cat /private/etc/hosts
