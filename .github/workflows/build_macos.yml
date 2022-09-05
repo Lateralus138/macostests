@@ -10,7 +10,7 @@ jobs:
     - name: Make MacOs
       run: |
         ./bin/unishellect.macos --help
-        ./bin/unishellect.macos
+#./bin/unishellect.macos
         ./bin/unishellect.macos -c
         ./bin/unishellect.macos -c 'FAKEFILE'
         ./bin/unishellect.macos -m
