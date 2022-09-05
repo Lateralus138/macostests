@@ -1,0 +1,39 @@
+ {
+  "Shells": [
+    {
+      "Title":"Python 3",
+      "Path":"python3",
+      "Args":"-q"
+    },
+    {
+      "Title":"Apt Upgrade",
+      "Path":"${HOME}/bin/aptupg",
+      "Args":""
+    },
+    {
+      "Title":"Update Locate Database",
+      "Path":"/home/flux/bin/progspin",
+      "Args":""
+    },
+    {
+      "Title":"Edit this menu",
+      "Path":"vim",
+      "Args":"${HOME}/.config/UniShellect/unishellect.json"
+    },
+    {
+      "Title":"Temp Screen",
+      "Path":"screen",
+      "Args":"-S tmp"
+    },
+    {
+      "Title":"Shutdown",
+      "Path":"shutdown",
+      "Args":"-P now"
+    },
+    {
+      "Title":"Bash",
+      "Path":"/bin/bash",
+      "Args":""
+    }
+  ]
+ }
